@@ -1,0 +1,16 @@
+fastapi[all]
+uvicorn
+pymysql
+passlib
+python-multipart
+python-jose
+bcrypt
+fastapi-jwt-auth
+cryptography
+numpy
+math
+re
+shutil
+os
+json
+typing
