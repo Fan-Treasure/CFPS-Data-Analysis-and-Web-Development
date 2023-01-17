@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>山东大学（威海）城乡分析报告范传进组</title>
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/main.css" rel="stylesheet">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./js/echarts.js"></script>
+<script src="./js/china.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script src="./js/echarts-wordcloud.js"></script>
+<script src="//code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="//open.source.lee23.top/auto-count-pv/js/auto-count-pv.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon"type="image/x-icon" href="image/logo赛博配色.ico"media="screen" />
+<link
+    rel="stylesheet"
+    href="./css/animate.css"
+  />
+<script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div><button onclick="mulu()" class="mulubutton1">目录</button></div>
+    <div class="mulu">
+        <ul>
+            <a href="#title"  style="color: black;"><li type="circle">title</li></a>
+            <a href="#title2" style="color: black;"><li type="circle">做饭用水</li></a>
+            <a href="#title3" style="color: black;"><li type="circle">收入水平</li></a>
+            <a href="#title4" style="color: black;"><li type="circle">工作水平</li></a>
+            <a href="#title5" style="color: black;"><li type="circle">教育水平</li></a>
+            <a href="#title6" style="color: black;"><li type="circle">统计学方法分析</li></a>
+            <a href="#title7" style="color: black;"><li type="circle">结论与建议</li></a>
+        </ul>
+        <button onclick="mulu2()" class="mulubutton">返回</button>
+    </div>
+    <div class="title" id="title"> 
+        <div class="wenzi">
+            <h1 class='main_title'>城乡差距与乡村振兴的碰撞</h1>
+            <h1 class='second_title'>——实现地区平衡长路漫漫</h1>
+            <div class="fangwen" style="display: flex;">
+                <p>访问量： </p>
+                <p id="liulan"></p>
+            </div>
+        </div>
+    </div>
+    <div class="img">
+        <p class="xiyulu">“健全城乡发展一体化体制机制，是一项关系全局、关系长远的重大任务。”</p>
+        <p class="zhuxi">————习近平</p>
+        <br>
+    </div>
+    <div class="zhengwen">
+        <hr width="80%" color="black">
+        <br>
+        <p ><b>城乡差异，地区差异一直是一个热点问题。</b></p>
+        <br>
+        <p >特别是随着经济的发展，中国经济在城市农村、不同地域发展的差距越来越大。城乡差距不仅体现在<b>经济</b>上，还体现在<b>政治</b>上。农村家庭和城市家庭之间的收入、资产、消费水平以及结构等情况也发生了不同。</p>
+        <br>
+        <p >本文的研究立足于<b>中国家庭追踪调查数据CFPS</b> 2010 -2018年的数据。先后对中国家庭城乡差异化、城乡不同地区差异化<b>进行分析研究，找出差异化的内容以及水平程度，并寻找造成这种差异化的原因，最后得出本文的研究结论，并针对中国家庭的差异化发展提供建议。</b>以及如何缩小城乡差距、构建乡村振兴提供建议。</p>
+        <br>
+    </div>
+    <div class="charts">
+    <div id="main15"></div></div>
+    <div class="title-2" id="title2">
+        <h1  class='main_title-2'>做饭用水</h1>
+        <h1  class='second_title-2'>从百姓的基本需求洞见城乡差异</h1>
+    </div>
+    <br><br><br>
+    <div class="charts">
+    <div id="main1"></div></div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2010-2018年城乡家庭做饭用水对比图</p>
+        <br>
+        <p>家庭基本生活条件<b>主要是做饭用水</b>，该方面可以看出基本家庭的生活条件。</p>
+        <br>
+        <p>城市几乎都是用的<b>自来水</b>做饭，并且2010到2018年做饭用水的来源基本没有变化。反观农村，自来水虽然占比40%-60%，但还有30%-50%的家庭用<b>井水</b>来做饭。不过，2010-2018年，农村家庭自来水做饭的占比<b>有所增加</b>，特别是2018年增幅很大，可见农村家庭的卫生情况<b>有所改善</b>。</p>
+        <br>
+        <p>接下来是不同地区城乡生活用水差异。下图中所示的南北部，东中西东北部的省份、直辖市、自治区的划分全部按照国家标准。</p>
+        <br>
+        <h3>南北部地区差异分析</h3>
+        <br>
+    </div>
+    <div class="charts">
+    <div id="main2"></div></div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2010-2018年南北部城乡家庭生活用水对比图</p>
+        <br>
+        <p>无论是南部还是北部地区，城市做饭用水几乎都是<b>自来水</b>，很少家庭会使用井水等水源。至于农村地区，自2010年以来，使用自来水的家庭<b>逐年增加</b>，且南北部<b>都有所增加</b>，地区之间并没有存在显著的差异。可能由于近年来南北乡村地区都安装自来水管道，并且政府和家庭都对饮用水健康情况做出了管理。</p>
+        <br>
+        <h3>东中西部地区差异分析</h3>
+        <br>
+        <p>刚刚分析了南北部的做饭用水的差异，现在来分析中东西东北部地区的做饭用水差异，特别是农村地区。</p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main3"></div>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2010-2018年中东西东北部城乡家庭做饭用水对比图</p>
+        <br>
+        <p>城市方面，东部和东北部地区使用自来水的比例<b>多于中部和西部</b>，城市中主要是西部和中部还有部分家庭在用井水做饭，可能由于和水源的存储有关。</p>
+        <br>
+        <p>农村方面，可以看出，在自来水和井水占比方面，西部农村和中部农村井水的比例在2010年时<b>高于自来水</b>，到2018年时自来水的使用比例更大。但是东部地区的农村家庭，一开始自来水的使用占比就多于井水的使用。而东北部农村近年来做饭用水的<b>变化不大</b>。此外，西部地区还存在使用窖水做饭的情况。说明中国农村的生活用水的习惯差异方面还有<b>极大的不平衡</b>。</p>
+        <br>
+    </div>
+
+    <div class="title-3" id="title3">
+        <h1 class="main_title-3">收入水平</h1>
+        <h1 class="second_title-3">从人们的“钱袋子”中发现奥秘</h1>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <h2>收入水平差异</h2>
+        <br>
+        <p><b>城乡收入水平的差距一直是国家和社会关注的重点对象，接下来通过家庭总收入和家庭人均收入两个方面的对比来逐步分析这种差异的来源。</b></p>
+        <br>
+        <h3>城乡家庭总收入对比</h3>
+        <br>
+        <p><b>通过对比城乡家庭的总收入水平。可以大致了解到城乡发展不均衡问题的程度。</b></p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main4"></div>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2010-2018年城乡家庭总收入对比</p>
+        <br>
+        <p>近几年来城乡家庭的总收入<b>均翻了很多倍</b>。但是可以看出，收入的总体水平在城乡之间的<b>差距也被拉大了。</b>在2010年，城乡家庭的收入差距<b>不足2万</b>，到了2018年，城乡家庭之间的收入差距<b>已接近7万</b>。这中间的差距非常大，一个城市家庭的总收入差不多相当于<b>两个农村家庭</b>的总收入。</p>
+        <br>
+        <h3>城乡家庭人均收入对比</h3>
+        <br>
+        <p>从2012至2018年，无论是城市还是农村，收入水平都<b>显著性的提高</b>了。农村的人均收入增加了<b>近3倍</b>，城市的人均收入增加了<b>近2.6倍</b>。但是城乡人均收入水平差距从最开始的一万，增加到了<b>2.3万左右</b>。可见，几年来人均差距就如此之大。城乡之间的贫富差距岁随着经济的发展进一步加快，<b>即便经济增长放缓，差距也进一步增加。</b></p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main5"></div>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2012-2018年城乡家庭人均收入对比</p>
+        <br>
+        <p>从2012至2018年，无论是城市还是农村，收入水平都显著性的提高了。农村的人均收入增加了近3倍，城市的人均收入增加了近2.6倍。但是城乡人均收入水平差距从最开始的一万，增加到了2.3万左右。可见，几年来人均差距就如此之大。城乡之间的贫富差距岁随着经济的发展进一步加快，即便经济增长放缓，差距也进一步增加。</p>
+        <br>
+        <h3>分地区收入水平差异化研究</h3>
+        <br>
+    </div>
+    <div class="charts_ditu">
+        <div id="main6"></div>
+        <button onclick="changeoption()" class="changebutton">更改样式</button>
+    </div>
+    <br>
+    <br>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">2018年中国各省份居民人均可支配收入</p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main7"></div>
+    </div>
+    
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">南北部城乡家庭总收入</p>
+        <br>
+        <p>南部的收入水平均高于北部，并且这种差距在城市间的差距最大，2018年城市南部地区比北部地区人收入<b>高了7万</b>左右。农村在南北部之间的差异相比城市间差别<b>不是很大</b>。接下来观察下南北部家庭总收入的差距。</p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main8"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">东中西部城乡家庭总收入差异</p>
+        <br>
+        <p>一方面，不论是农村还是城市，东部地区东部家庭总收入<b>大于</b>中部家庭总收入，中部家庭总收入<b>大于</b>西部、东北部总收入。</p>
+        <br>
+        <p>东部农村2012年家庭总收入最开始和中部<b>齐平</b>，和西部也差距不是很大，但是2018年，东部已经<b>远远超过</b>了中部和西部的收入。西部和中部的家庭总收入水平相差<b>不是很大</b>。东部家庭总收入水平比中西部<b>多2万多。</b></p>
+        <br>
+        <p>东部地区是城乡收入差距最大的地区。2018年，东部地区的城乡收入差距<b>接近8万</b>，中部、西部、东北部地区差距则为3万至5万元。可能是由于西部整体的收入水平比较低下。同时，随着年份的增加不同地区的城乡差距也在增加。</p>
+        <br>
+    </div>
+
+
+    <div class="title-4" id="title4">
+        <h1 class="main_title-4">工作水平</h1>
+        <h1 class="second_title-4">从职业模式的视角探究城乡发展</h1>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <h2>成人工作单位性质差异化分析</h2>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main9"></div>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">城乡工作单位性质差异图</p>
+        <br>
+        <p>从城乡工作单位类型整体可以看出，城镇居民<b>从事国企与外商工作</b>的比例高于农村居民。而农村居民<b>从事私营个体经济与政府工作</b>的比例高于城镇居民。由于农业生产的自然条件、农村历史上形成的自然经济传统使农村的生产方式以及从事的产业与城镇具有差异。</p>
+        <br>
+        <p>从产业方面来看，其中乡村居民主要从事的是相应的<b>第一产业</b>; 城市居民从事的是相应的第二和第三产业也就是<b>工业和服务业。</b></p>
+        <br>
+        <p>从政府政策方面来看，为了减少城乡工作差异和提高居民生活质量政府的政策会<b>偏向于农村</b>，为农村带来了许多工作福利。</p>
+        <br>
+        <h2>分地区对比城乡工作单位性质差异</h2>
+        <br>
+        <h3>a.南北部</h3>
+        <br>
+    </div>
+
+    <div class="charts">
+        <div id="main10"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">南北部城乡工作单位性质差异</p>
+        <br>
+        <p>城市之间，南北部的工作单位性质差异性<b>较农村地区大</b>，但两者在南北部工作类型上都具有差异。由于我国南北双方所处的地理位置、气候特征等方面的不同，造成了我国南北方工作类型的差异。</p>
+        <br>
+        <p>从自然地理角度来看，北方相对来说大部分处于<b>温带季风气候区</b>，南北方具有一定的气候差异致使南北方工作具有差异。</p>
+        <br>
+        <p>从交通运输角度来看，南北方交通运输具有差异。北方以<b>公路</b>为主。南方<b>路水联运</b>，商品销路比较好，适合发展外商，因此南方城乡外商工作比例明显高于北方。且南方城镇外商工作比例高于农村外商比例。</p>
+        <br>
+        <p>从其他角度来看，北方历来是中国的<b>政治中心</b>，北方政治较为活跃，国有企业数量较多，因此北部国企工作比例高于南方。<b>“北方多出当官，南方多出经商”</b>，这两句话较好地反映了南北方不同的在政治、经济上的差异。</p>
+        <br>
+        <h3>b.东中西部地区城乡差异分析</h3>
+        <br>
+    </div>
+
+    <div class="charts">
+        <div id="main11"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">城乡东中西部工作性质对比</p>
+        <br>
+        <p>城市和农村都是西部在<b>政府单位工作</b>的偏多。</p>
+        <br>
+        <p>从自然因素来看，由于地理位置的原因，东部和中部<b>多平原和河流</b>，土壤肥沃，农业发达，是全国商品粮、商品棉基地集中地；同时东部和中部交通运输也较便利，因此城乡东部和中部的<b>私营个体</b>工作比例较西部高。</p>
+        <br>
+        <p>从经济因素来看，经济发展东部沿海发达东部城市发展快，东部大部分地区都是<b>沿海地区</b>，来自国外的资金以及能源比较多，外资经济发展上较西部便利，因此在外商工作上东部和中部的比例明显高于西部，且中部和东部的城镇居民<b>从事外商工作</b>比例高于农村。</p>
+        <br>
+        <p>从历史因素看，东北曾是我国的<b>重工业中心</b>，其城镇居民在国企工作的比例较高。</p>
+        <br>
+    </div>
+
+    <div class="title-5" id="title5">
+        <h1 class="main_title-5">教育水平</h1>
+        <h1 class="second_title-5">城乡差异蕴藏于“百年大计”</h1>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p>随着经济实力的不断发展和人民生活水平的发展提高，我国贫富差距明显增大，并且呈现进一步扩大的趋势。为之而来的城乡差异也更为明显，而这种差距不仅仅表现在经济上，在城乡教育问题上也十分突出。致使城乡教育之间存在的巨大差距。</p>
+        <br>
+    </div>
+    <div class="charts">
+        <div id="main12"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">城乡居民教育水平对比图</p>
+        <br>
+        <p>城乡居民教育水平呈现巨大差异。其中农村居民教育水平<b>大部分在大专以下</b>，小学文凭、初中文凭与高中文凭则占多数，文盲与半文盲比例<b>明显高于</b>城镇比例。城市居民<b>教育水平总体偏高</b>，大都具有高中及以上学历，文盲与半文盲比例只有<b>农村比例的一半</b>。</p>
+        <div style="display: flex;">
+        <img class="img01" src="./image/教育插图.jpg" alt="">
+        <div>
+        <br>
+        <p>从<b class="tuchu">城乡教育资源分配</b>的角度来看，我国自实行义务教育以来，虽然国家和政府做了许多努力，但义务教育的城乡差距依然存在。很多农村地区<b>九年制义务教育得不到保障</b>，且农村教育设施及条件较差，农村的教育资源稀缺，<b>乡村教师资源较城市贫乏，</b>教师素质也偏低。城市学校众多，且形成了良性竞争的环境，有助于提高教育水平，乡村学校少，科目单一，师资力量不足，且需要教育支援。在城市的孩子相对来说见识多，视野开阔，思维活跃，应变能力较好。在城市的孩子相对来说会有更多的时间、机会来学习更多的知识，父母的指导、各种培训机构、各种网上资料、图书馆等资源。且城市中的学生，享受不断升级换代的教育设施，选择自己所喜爱的课程，接受素质教育。相对城市，农村的孩子一直接受着劣等的教育，可能将农村居民的低素质持续下去，造成长期性的城乡差距。</p>
+        <br></div></div>
+        <p>从<b class="tuchu">经济方面</b>而言：经济是教育发现的一个基本因素。地区经济的发展不平衡造成不同地区之间受教育程度的不平衡，城镇经济发展较农村先进。因此城镇居民教育程度普遍高于农村居民教育水平。根据需要假说解释，人只有基本需要得到满足，才能发展高层次需要，城市的经济发展水平的到了基本满足，从而人们的基本生活需求也就得到满足，他们会追求下一个需求，就会更加注重教育等方面的发展开始这一方面的消费，而乡镇的经济还有待发展，故而他们会先满足基本需求，换一句话说就是：城市的人他们已经过了吃好喝好的阶段（比吃饱喝饱高一个阶段）了，就开始对自己内外及外在美的需求，而乡镇人们想的是我先吃饱，吃好。</p>
+        <div style="display: flex;">
+        <div style="margin-top: 5vh;">
+        <br>
+        <p>从<b class="tuchu">科技方面</b>而言，现在的教育离不开科技的发展，现代教育技术已经充分在城市应用。城市的孩子可以通过<b>互联网</b>学习到更多的东西，从一个小的角度出发，在城市，学校教师利用互联网技术，可以将课堂变得更加有趣生动贴切，把枯燥乏味晦涩的知识更加生动的呈现给学生，那么学生的动力就提高了，而在乡镇，这些技术没有得到普及，那么学生在面对同一知识点的时候，就只能死记硬背了，所以付出同样的努力，城市教育水平会更高。</p>
+        <br></div>
+        <img class="img02" src="./image/教育插图2.jpg" alt=""></div>
+        <p>从<b class="tuchu">教师分配与师资力量</b>而言，所谓人往高处走，水往低处流，大多数优秀老师更希望在城市发展，而不是乡镇，教师水平不一样，那么教育水平自然不一样。现在农村学校有相当一部分教师是民办转公办或村聘教师,相当一部分教师存在<b>教法陈旧、观念落后</b>等问题。教师队伍整体存在着<b>年龄偏大、知识结构老化、知识面窄</b>的问题。面对新形势下的素质教育，面对<b>改革后的义务教育新课程</b>,他们往往显得力不从心。</p>
+        <br> 
+    </div>
+
+    <div class="charts">
+        <div id="main13"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">南北部城乡居民教育水平对比</p>
+        <br>
+        <p>从南北部城乡居民教育水平对比图中可以看出，南部城乡居民的教育水平<b>普遍高于</b>北部城市，且南北部农村居民的教育水平差异大于南北部城市居民的教育水平。北部农村居民文盲与半文盲数量<b>高于城镇几乎一倍</b>。</p>
+        <br>
+        <p>从南北方发展水平来分析，南北方在经济发展水平不均导致出现教育差距，南方经济较北方发达，因而南方居民教育程度<b>明显高于</b>北方居民。</p>
+        <br>
+    </div>
+
+    <div class="charts">
+        <div id="main14"></div>
+    </div>
+
+    <div class="zhengwen">
+        <br>
+        <p style="text-align: center;">东中西东北部城乡居民教育水平对比</p>
+        <br>
+        <p>东部城市，中部城市以及东北部城市居民<b>教育水平明显高于</b>西部居民的教育水平。西部地区城乡居民处于在<b>文盲与半文盲</b>学历以及小学文凭的人数较多，在农村尤为明显。其次，东部地区城乡居民<b>大都具有中高等学历</b>。低学历人口的比例农村远远高于城市，高学历人口的比例则是城市<b>明显高于农村</b>。</p>
+        <br>
+    </div>
+
+    <div class="title-6" id="title6">
+        <h1 class="main_title-6">统计学方法分析</h1>
+    </div>
+    <div class="zhengwen">
+        <br>
+        <p>通过统计描述分析，可以看得出中国农村间存在明显的地域收入差距，接下来用具体的检验方法来验证这种地区是否导致收入差距的显著性检验。先进行<b>相关性分析</b>。结果如下。</p>
+        <br>
+        
+<table class="table">
+  <tr>
+    <td><div align="center">家庭总收入地区</div></td>
+    <td><div align="center">东中西部</div></td>
+    <td><div align="center">南北部</div></td>
+  </tr>
+  <tr>
+    <td><div align="center">spearman相关系数</div></td>
+    <td><div align="center">-0.02348</div></td>
+    <td><div align="center">-0.042785</div></td>
+  </tr>
+  <tr>
+    <td><div align="center">P_value</div></td>
+    <td><div align="center">0.09618</div></td>
+    <td><div align="center">0.002429</div></td>
+  </tr>
+</table>
+<br>
+<p align="center">表3-1农村地区与收入相关分析</p>
+<br>
+<p>从以上表3-1农村地区与收入相关分析可以看出，地域与收入之间的确存在相关关系，但是东中字西部的地域差异和收入之间的相关关系不显著，南北部地域差异和家庭收入之间的相关关系满足<b>0.05的显著性水平</b>。</p>
+<br>
+<p>2.3方差分析</p>
+<br>
+<p>通过上面的相关性分析，可以初步得出地区与农村家庭的家庭总收入存在相关性，但是具体是不是不同地域的划分会显著的影响地域家庭的家庭收入，还需要通过<b>方差分析</b>来检测。将农村家庭的收入分为五个组，分别是东中部、西部、南部、北部。现在想要观察不同的分类变量是否会影响各地的工资收入水平。通过<b>单因素方差分析</b>来展开。</p>
+<br>
+<p>利用<b>python软件的statsmodels.formula.api模块</b>进行单因素方差分析。可以得到如下的结果表：</p>
+<br>
+<table class="table">
+    <tr>
+      <td><div align="center"> </div></td>
+      <td><div align="center">sum_sq</div></td>
+      <td><div align="center">df</div></td>
+      <td><div align="center">F</div></td>
+      <td><div align="center">PR(>F)</div></td>
+    </tr>
+    <tr>
+      <td><div align="center">C(N_S)</div></td>
+      <td><div align="center">1.16E+12</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">52.493218</div></td>
+      <td><div align="center">4.97E-13</div></td>
+    </tr>
+    <tr>
+      <td><div align="center">C(E_C_W)</div></td>
+      <td><div align="center">1.22E+12</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">27.610798</div></td>
+      <td><div align="center">1.19E-12</div></td>
+    </tr>
+    <tr>
+        <td><div align="center">Residual</div></td>
+        <td><div align="center">1.11E+14</div></td>
+        <td><div align="center">5016</div></td>
+        <td><div align="center">NaN</div></td>
+        <td><div align="center">NaN</div></td>
+      </tr>
+  </table>
+  <br>
+  <p align="center">表3-2单因素方差分析表</p>
+  <br>
+  <p>从上面的方差分析表可以得出，<b>F值分别为52.5和27.6</b>，都是满足在0.05的显著性水平下各组的均值不完全相等的，说明地域的不同会对中国农村家庭的收入带来显著性的影响差异。</p>
+  <br>
+    </div>
+    <div class="title-7" id="title7">
+        <h1 class="main_title-7">结论与建议</h1>
+        <h1 class="second_title-7">展望未来，我们能做的还有很多......</h1>
+    </div>
+    <div class="zhengwen">
+        
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过上文的研究，统计描述性分析，可视化结果图以及农村地区和家庭收入水平之间的相关性以及显著性检验，提出几个实现乡村振兴的途径</p>
+        <div style="display: flex; margin-bottom: 5vh;" >
+        <img class="img03" src="./image/result.jpg" alt="">
+        <div style="margin-top: 5vh;">
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市的发展离不开农村的支持，实现乡村振兴一方面可以解决城乡发展不平衡问题。乡村振兴关系到了农业农村现代的实现、国家现代化的实现，可以从根本上解决现阶段我国农业不发达、农村不兴旺、农民不富裕的“三农”问题。让农村走上现代化的道路，提高农民的收入，缩小城乡收入。实施乡村振兴战略，是要从根本上解决目前我国农业不发达、农村不兴旺、农民不富裕的“三农”问题。通过牢固树立创新、协调、绿色、开放、共享“五大”发展理念，达到生产、生活、生态的“三生”协调，促进农业、加工业、现代服务业的“三业”融合发展，真正实现农业发展、农村变样、农民受惠，最终建成“看得见山、望得见水、记得住乡愁”、留得住人的美丽乡村、美丽中国。</p>
+        <br></div></div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.要深入推进农业供给侧结构性改革，促进产业发展，加快建设现代农业产业体系、生产体系、经营体系，推动种植业、畜牧业、渔业、农产品加工业等转型升级，努力向现代农业迈进。找准产业，重点要基于更高效、更生态、更智慧的农业；其次应注重高附加值的农产品的生产和加工，延伸农业产业链，有针对性的要发挥农村资源优势，推进农业与新工业、互联网、旅游、养老等深度融合，建设现代农业公园等新业态，促进农村一二三产业融合发展，培育农业农村发展新动能，支持和鼓励农民参与建设现代农业产业。 努力向现代农业迈进。</p>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.要在城乡融合发展制度设计、政策创新上想办法、求突破，缩小城乡差距，实现乡村振兴，既要发挥政府的主导作用、依靠农民自己勤奋劳动，更需要全社会的关心和支持。大家的参与和支持，是乡村建设的重要力量和重要资源。鼓励和引导社会资金和技术力量参与新农村建设，注重做好“三个相结合”，一是与农村综合改革和扶贫相结合，二是与提升新农村建设水平和加强农业农村环境整治相结合，三是与乡村经营管理相结合，吸引和集聚土地、资本、科技、人才、信息等现代要素，全面激活市场、激活要素、激活主体，形成农业农村经济发展新动力，让“产业兴旺、生态宜居、乡风文明、治理有效、生活富裕”逐步成为现实。加快农村公共设施建设，加快补齐农业农村发展短板，让农业强起来、农村美起来、农民富起来。让农村成为安居乐业的家园。</p>
+        <br>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;要不忘初心，牢记使命，时刻保持思想信念的坚定，常怀一颗赤子之心，为了农业农村农民的发展积极贡献自己的力量，为缩小城乡差距，构建乡村振兴蓝图而不懈奋斗。</b></p>
+        <br>
+    </div>
+    <div style="display: flex; background-image: url(./image/jiewei.png);background-size: cover;
+    background-position: center center;">
+    <div class="zhengwen" style="margin-left: 35%; margin-right: 20%; margin-top: 10vh;">
+        <p>数据来源:  中国家庭追踪调查(CFPS)</p>
+        <p>图片来源:  图片来源于网络</p>
+        <p>团队成员:  范传进  许家路  赵依洋</p>
+        <p>指导老师:  郭亮  王效强  王猛</p>
+    </div>
+    </div>
+</body>
+<script type="text/javascript">
+    let ais=1;
+    var myChart1 = echarts.init(document.getElementById('main1'));
+    myChart1.setOption(option1);
+
+    var myChart2 = echarts.init(document.getElementById('main2'));
+    myChart2.setOption(option2);
+
+    var myChart3 = echarts.init(document.getElementById('main3'));
+    myChart3.setOption(option3);
+
+    var myChart4 = echarts.init(document.getElementById('main4'));
+    myChart4.setOption(option4);
+
+    var myChart5 = echarts.init(document.getElementById('main5'));
+    myChart5.setOption(option5);
+
+    var myChart6 = echarts.init(document.getElementById('main6'));
+    option = mapOption;
+        
+        // 使用刚指定的配置项和数据显示图表。
+    myChart6.setOption(option);
+    function changeoption()
+
+    {
+        console.log(option);
+        if(option==barOption)
+        {
+            option=mapOption;
+            myChart6.setOption(option, true);
+        }
+        else{
+            option=barOption;
+            myChart6.setOption(option, true);
+        }
+    }
+
+    var myChart7 = echarts.init(document.getElementById('main7'));
+    myChart7.setOption(option7);
+
+    var myChart8 = echarts.init(document.getElementById('main8'));
+    myChart8.setOption(option8);
+
+    var myChart9 = echarts.init(document.getElementById('main9'));
+    myChart9.setOption(option9);
+
+    var myChart10 = echarts.init(document.getElementById('main10'));
+    myChart10.setOption(option10);
+
+    var myChart11 = echarts.init(document.getElementById('main11'));
+    myChart11.setOption(option11);
+
+    var myChart12 = echarts.init(document.getElementById('main12'));
+    myChart12.setOption(option12);
+
+    var myChart13 = echarts.init(document.getElementById('main13'));
+    myChart13.setOption(option13);
+
+    var myChart14 = echarts.init(document.getElementById('main14'));
+    myChart14.setOption(option14);
+
+    var myChart15 = echarts.init(document.getElementById('main15'));
+    myChart15.setOption(option15);
+
+    var out=document.getElementById("fangwen");
+    if (localStorage.pagecount)
+        {
+        localStorage.pagecount=Number(localStorage.pagecount) +1;
+        }
+    else
+        {
+        localStorage.pagecount=1;
+        }
+    out.innerHTML=localStorage.pagecount;
+
+    function mulu(){
+        var mulu=document.getElementsByClassName("mulu")[0];
+        mulu.classList.add("xianshi")
+        mulu.classList.remove("xiaoshi")
+        var mulu1=document.getElementsByClassName("mulubutton1")[0];
+        mulu1.classList.add("xiaoshi")
+        mulu1.classList.remove("xianshi")
+    }
+    function mulu2(){
+        var mulu=document.getElementsByClassName("mulu")[0];
+        mulu.classList.add("xiaoshi")
+        mulu.classList.remove("xianshi")
+        var mulu1=document.getElementsByClassName("mulubutton1")[0];
+        mulu1.classList.add("xianshi")
+        mulu1.classList.remove("xiaoshi")
+    }
+</script>
+</html>
