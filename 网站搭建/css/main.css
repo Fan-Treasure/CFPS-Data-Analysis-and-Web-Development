@@ -1,0 +1,1730 @@
+html,body {
+    border:0;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-items: center;
+    margin: 0 auto; */
+    scroll-behavior: smooth;
+}
+h2,h3,h4{
+    text-shadow: 1px 1px grey;
+}
+.mulubutton{
+    width: 10%;
+    background-color: rgba(122, 193, 235, 0.884);
+    border: 0;
+}
+.mulubutton1{
+    width: 10%;
+    background-color: rgba(122, 193, 235, 0.884);
+    border: 0;
+}
+.title{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/title.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/做饭用水.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/收入.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-4{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/工作.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-5{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/教育.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-6{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/统计方法.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.title-7{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/结论.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.img01{
+    margin-top: 5vh;
+    margin-right: 5%;
+    height: 60vh;
+    width: 45%;
+}
+
+.img03{
+    margin-top: 5vh;
+    margin-right: 5%;
+    height: 60vh;
+    width: 50%;
+}
+.img02{
+    margin-top: 5vh;
+    margin-left: 5%;
+    height: 50vh;
+    width: 50%;
+}
+
+
+.mulu{
+    background-color: rgba(255,255,255,0.6);
+    margin-top: 0;
+    display: none;
+}
+@media (min-width:320px) and (max-width:480px){
+    .img01{
+        display: none;
+    }
+    .img02{
+        display: none;
+    }
+    .img03{
+        display: none;
+    }
+
+    .charts{
+        width: 100%;
+        height:100vh;
+    }
+    .charts_ditu{
+        width: 100%;
+        height:120vh;
+    }
+    #main1{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main2{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main3{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main4{
+        margin: 0 auto;
+        width:100%;
+        height:100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main5{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main6{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main7{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main8{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main9{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main10{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main11{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main12{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main13{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main14{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main15{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    .mulu{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: smaller;
+    }
+    .mulubutton{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: smaller;
+    }
+    .mulubutton1{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: smaller;
+    }
+    .fangwen{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:70%;
+        font-size: 8px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .table{
+        width: 10%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+        font-size: 1px;
+    }
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 4px !important;
+    }
+    .xiyulu{
+        width:80%;
+        margin-top:5vh ;
+        margin-left:15% ;
+        margin-right:20% ;
+        font-size: 18px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .zhuxi{
+        margin-left:55% ;
+        font-size: 18px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 5vh;
+        height: 20vh;
+    }
+    .tuchu{
+        font-size: 25px;
+    }
+    .zhengwen{
+        margin-left: 20%;
+        margin-right: 20%;
+        color: black;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .main_title{
+        color: #fff; 
+        padding-top: 40vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        animation: show;
+        animation-duration:5s
+    }
+    .second_title{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .main_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:25%;
+        font-size: 20px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
+
+@media (min-width:480px) and (max-width:640px){
+    .img01{
+        display: none;
+    }
+    .img02{
+        display: none;
+    }
+    .img03{
+        display: none;
+    }
+
+    .charts{
+        width: 100%;
+        height:100vh;
+    }
+    .charts_ditu{
+        width: 100%;
+        height:120vh;
+    }
+    #main1{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main2{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main3{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main4{
+        margin: 0 auto;
+        width:100%;
+        height:100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main5{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main6{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main7{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main8{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main9{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main10{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main11{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main12{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main13{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main14{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main15{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    .mulu{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: small;
+    }
+    .mulubutton{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: small;
+    }
+    .mulubutton1{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: small;
+    }
+    .fangwen{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:80%;
+        font-size: 10px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .table{
+        width: 20%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+        font-size: 15px;
+    }
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 5px !important;
+    }
+    .xiyulu{
+        width:80%;
+        margin-top:5vh ;
+        margin-left:15% ;
+        margin-right:20% ;
+        font-size: 22px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .zhuxi{
+        margin-left:5% ;
+        font-size: 22px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 5vh;
+        height: 20vh;
+    }
+    
+    .tuchu{
+        font-size: 30px;
+    }
+    .zhengwen{
+        margin-left: 20%;
+        margin-right: 20%;
+        color: black;
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .main_title{
+        color: #fff; 
+        padding-top: 40vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        animation: show;
+        animation-duration:5s
+    }
+    .second_title{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .main_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:25%;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
+
+@media (min-width:640px) and (max-width:900px){
+    .img01{
+        display: none;
+    }
+    .img02{
+        display: none;
+    }
+    .img03{
+        display: none;
+    }
+
+    .charts{
+        width: 100%;
+        height:100vh;
+    }
+    .charts_ditu{
+        width: 100%;
+        height:120vh;
+    }
+    #main1{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main2{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main3{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main4{
+        margin: 0 auto;
+        width:100%;
+        height:100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main5{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main6{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main7{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main8{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main9{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main10{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main11{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main12{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main13{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main14{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    #main15{
+        margin: 0 auto;
+        width:100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+    .mulu{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: medium;
+    }
+    .mulubutton{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: medium;
+    }
+    .mulubutton1{
+        float: left;
+        position: fixed;
+        left: 60%;
+        font-size: medium;
+    }
+    .table{
+        width: 30%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+        font-size: 20px;
+    }
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 6px !important;
+    }
+    .xiyulu{
+        width:80%;
+        margin-top:5vh ;
+        margin-left:15% ;
+        margin-right:20% ;
+        font-size: 25px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .zhuxi{
+        margin-left:55% ;
+        font-size: 25px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 5vh;
+        height: 20vh;
+    }
+     
+    .tuchu{
+        font-size: 33px;
+    }
+    .zhengwen{
+        margin-left: 20%;
+        margin-right: 20%;
+        color: black;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .main_title{
+        color: #fff; 
+        padding-top: 40vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        animation: show;
+        animation-duration:5s
+    }
+    .second_title{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .fangwen{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:80%;
+        font-size: 20px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .main_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:25%;
+        font-size: 40px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
+
+@media (min-width:900px) and (max-width:1350px){
+    .img01{
+        display: none;
+    }
+    .img02{
+        display: none;
+    }
+    .img03{
+        display: none;
+    }
+    .charts{
+        width: 100%;
+        height:50vh;
+    }
+    .charts_ditu{
+        width: 100%;
+        height:80vh;
+    }
+    #main1{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main2{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main3{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main4{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main5{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main6{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main7{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main8{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main9{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main10{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main11{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main12{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main13{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main14{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main15{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    .mulu{
+        float: left;
+        position: fixed;
+        left: 70%;
+        font-size: medium;
+    }
+    .mulubutton{
+        float: left;
+        position: fixed;
+        left: 70%;
+        font-size: medium;
+    }
+    .mulubutton1{
+        float: left;
+        position: fixed;
+        left: 70%;
+        font-size: medium;
+    }
+    .table{
+        width: 30%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+        font-size: 30px;
+    }
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 7px !important;
+    }
+    .xiyulu{
+        width:80%;
+        margin-top:5vh ;
+        margin-left:15% ;
+        margin-right:20% ;
+        font-size: 27px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .zhuxi{
+        margin-left:55% ;
+        font-size: 27px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 5vh;
+        height: 20vh;
+    }
+    
+    .tuchu{
+        font-size: 35px;
+    }
+    .zhengwen{
+        margin-left: 20%;
+        margin-right: 20%;
+        color: black;
+        font-size: 27px;
+        font-weight: 200;
+    }
+    .main_title{
+        color: #fff; 
+        padding-top: 40vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        animation: show;
+        animation-duration:5s
+    }
+    .second_title{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .fangwen{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:75%;
+        font-size: 30px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .main_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:22%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 55px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:35%;
+        font-size: 50px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
+
+@media (min-width:1350px){
+    .charts{
+        width: 100%;
+        height:50vh;
+    }
+    .charts_ditu{
+        width: 100%;
+        height:80vh;
+    }
+
+    #main1{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main2{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main3{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main4{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main5{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main6{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main7{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main8{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main9{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main10{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main11{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main12{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main13{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main14{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    #main15{
+        margin: 0 auto;
+        width:50%;
+        height: 50vh;
+        display: flex;
+        place-items: center;
+    }
+    .mulu{
+        float: left;
+        position: fixed;
+        left: 80%;
+        font-size: large;
+    }
+    .mulubutton{
+        float: left;
+        position: fixed;
+        left: 85%;
+        font-size: large;
+    }
+    .mulubutton1{
+        float: left;
+        position: fixed;
+        left: 85%;
+        font-size: large;
+    }
+    .xiyulu{
+        width:80%;
+        margin-top:5vh ;
+        margin-left:15% ;
+        margin-right:20% ;
+        font-size: 32px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .zhuxi{
+        margin-left:55% ;
+        font-size: 32px;
+        color: #8B0000;
+        font-weight:bold;
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 5vh;
+        height: 20vh;
+    }
+    .tuchu{
+        font-size: 28px;
+    }
+
+    .zhengwen{
+        margin-left: 20%;
+        margin-right: 20%;
+        color: black;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .main_title{
+        color: #fff; 
+        padding-top: 40vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        animation: show;
+        animation-duration:5s
+    }
+    .second_title{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .fangwen{
+        color: #fff;
+        padding-top: 5vh;
+        margin-left:70%;
+        font-size: 40px;
+        font-weight: 600;
+        animation: show;
+        animation-duration:5s
+    }
+    .main_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-2{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-3{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-4{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-5{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-6{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:42%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+    .main_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 30vh;
+        margin-left:10%;
+        font-size: 100px;
+        font-weight: 800;
+        position: absolute;
+    }
+    .second_title-7{
+        color: #fff;
+        display: none;
+        margin-top: 50vh;
+        margin-left:35%;
+        font-size: 60px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
+
+.xianshi{
+    display: inline !important;
+    animation: show;
+    animation-duration:4s
+}
+
+@keyframes show{
+0%{
+    opacity: 0;
+}
+25%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+
+
+.changebutton{
+    margin-left: 25%;
+    height: 5vh;
+    width: 25%;
+    background-color: rgba(122, 193, 235, 0.884);
+    border: 0;
+}
+
+
+
+.xiaoshi{
+    display: none !important;
+}
